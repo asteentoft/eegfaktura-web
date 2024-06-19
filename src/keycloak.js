@@ -1,9 +1,9 @@
 // import Keycloak from 'keycloak-js'
 import {KeycloakService} from "./service/keycloak.service";
 const keycloakConfig = {
-    url: 'https://login.ourproject.at/auth/',
+    url: 'https://admin.energiegemeinschaft.xyz/auth/',
     realm: 'VFEEG',
-    clientId: 'at.ourproject.vfeeg.app'
+    clientId: 'eegfaktura'
 }
 // const keycloak = new Keycloak(keycloakConfig);
 // export default keycloak
